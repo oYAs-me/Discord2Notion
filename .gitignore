@@ -14,3 +14,7 @@ wheels/
 *.tmp
 temp/
 tmp/
+
+# environment variables
+*.env
+!.env.template

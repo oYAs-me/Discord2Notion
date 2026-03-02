@@ -7,7 +7,7 @@ import asyncio
 from datetime import datetime
 
 # .envファイルから環境変数を読み込む
-load_dotenv()
+load_dotenv("tokens.env")
 
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 DISCORD_CHANNEL_ID = os.getenv("DISCORD_CHANNEL_ID")
