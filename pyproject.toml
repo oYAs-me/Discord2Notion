@@ -7,4 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "discord-py>=2.7.0",
     "notion>=0.1.0",
+    "notion-client>=3.0.0",
+    "python-dotenv>=1.2.2",
 ]
