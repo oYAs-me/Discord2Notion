@@ -6,7 +6,7 @@
 
 ### 1.1. Discordボットの作成
 1. [Discord Developer Portal](https://discord.com/developers/applications) にアクセスします。
-2. **New Application** をクリックし、名前（例: `Discord2Notion`）を入力して作成します。
+2. **New Application** をクリックし、名前（例: `Disc2Notion`）を入力して作成します。
 3. 左メニューの **Bot** を選択します。
 4. **Reset Token** をクリックしてトークンを発行し、コピーしておきます（これが `DISCORD_BOT_TOKEN` になります）。
 5. **重要:** 同じページ内の **Privileged Gateway Intents** セクションにある **MESSAGE CONTENT INTENT** を **ON** に設定してください。これがないとメッセージの内容を読み取れません。
@@ -55,7 +55,7 @@
 
 ## 3. 環境設定
 
-1. プロジェクトルートにある `.env.template` をコピーして `.env` ファイルを作成します。
+1. プロジェクトルートにある `.env.template` をコピーして `tokens.env` ファイルを作成します。
 2. 取得した各値を入力します：
 
 ```env
